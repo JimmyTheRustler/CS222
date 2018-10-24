@@ -1,0 +1,39 @@
+1. Help:
+	Displays all of the commands and gives a short description about each one.
+	
+2. Load:
+	Adds all the student records from a given file to the roster. Takes a file name argument.
+	
+3. Save:
+	Save the records of all living students in the roster to a file. Format is identical to the file that was read into the program. Takes a file name argument
+	
+4. Clear:
+	Clear the rosters for the four houses and for the list of deceased student.
+	
+5. InOrder:
+	Prints out each house in an inOrder traversal.
+
+6. PreOrder:
+	Prints out each house in an preOrder traversal.
+
+7. PostOrder:
+	Prints out each house in an postOrder traversal.
+
+8. Add:
+	Add's a student with the given attributes to the roster. Takes first name, last name, points, year, and house as arguments.
+
+9. Kill:
+	Find the given student in the given house's roster, remove that student from the roster, and will add the students name to the deceased roster. Takes first name, last name, and house arguments.
+
+10. Find:
+	Will find a given student in the given houses roster and will print out their data. Takes first name, last name, and house arguments.
+
+11. Points:
+	Find the given student in the given house's roster and add a specified amount of points to their point total. Can add negative numbers as well. Takes a first name, last name, house, and number arguments.
+
+12. Score:
+	Prints out the current point scores for all houses. Points from deceased students are not factored in
+
+13. Quit:
+	Quits the program.
+

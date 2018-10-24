@@ -1,0 +1,5 @@
+onetimepad: onetimepad.c
+	gcc -o oneitmepad onetimepad.c
+
+clean:
+	rm -f oneitmepad
